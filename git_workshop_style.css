@@ -236,9 +236,12 @@ nav a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Replace with this */
 .schedule-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(117, 70, 255, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(117, 70, 255, 0.3);
+  border-color: var(--primary);
+  transition: all 0.3s ease;
 }
 
 .schedule-time {
