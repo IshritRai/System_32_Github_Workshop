@@ -51,9 +51,11 @@ body {
   border: none;
 }
 
+/* Replace with this */
 .btn-primary:hover {
   background-color: var(--primary-hover);
-  box-shadow: 0 0 15px rgba(117, 70, 255, 0.6);
+  box-shadow: 0 0 20px rgba(117, 70, 255, 0.8);
+  transform: translateY(-2px);
 }
 
 .btn-outline {
